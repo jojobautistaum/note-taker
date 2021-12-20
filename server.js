@@ -11,12 +11,12 @@ app.use(express.json());
 // static middleware for CSS, HTML and JS files
 app.use(express.static('public'));
 
-
+// route to return notes.html
 app.get('/notes', (req, res) => {
   res.sendFile(path.join(__dirname, './public/notes.html'));
 });
 
-// route to read db.json
+// route to read db.json and return all saved notes
 app.get('/api/notes', (req, res) => {
     fs.readFile(path.join(__dirname, './db/db.json'), 'utf8', (err, noteData) => {
         if(err) {
@@ -29,6 +29,8 @@ app.get('/api/notes', (req, res) => {
     });
 });
 
+// route to return index.html file
+// "*" should be in the end of the list of routes with same method
 app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, './public/index.html'));
 });
@@ -55,7 +57,7 @@ app.post('/api/notes', (req, res) => {
     });
 });
 
-// route to remove selected note
+// route to remove the selected note by id
 app.delete('/api/notes/:id', (req, res) => {
     fs.readFile(path.join(__dirname, './db/db.json'), 'utf8', (err, notes) => {
         if(err) {
@@ -75,6 +77,7 @@ app.delete('/api/notes/:id', (req, res) => {
     
 });
 
+// Show URL and listening port of the running App
 app.listen(PORT, () => {
     console.log(`Note taker is running at http://localhost:${PORT}`);
 });

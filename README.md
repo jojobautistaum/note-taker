@@ -24,11 +24,14 @@
   then open the link in the browser. ie. http://localhost:4000
 
   ### Snapshots
-  * Sample Input <br />
+  * Starting Page <br />
   ![Starting Page](https://user-images.githubusercontent.com/90885263/147195835-3eed7880-6ece-4e79-9a0b-d82091edb53e.png)
 
-
+  * Adding Note
   ![Adding Note](https://user-images.githubusercontent.com/90885263/147196132-28c1c3d8-bece-45cc-b7eb-af7a75c0cca5.png)
+
+  * Insomia Get all notes
+  ![image](https://user-images.githubusercontent.com/90885263/147199307-749f3766-516d-49ef-8bb0-80e8ddaa2fbd.png)
 
   ## Note Taker Link <a id="link"></a>
  https://safe-atoll-95629.herokuapp.com

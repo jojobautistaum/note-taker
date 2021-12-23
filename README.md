@@ -8,6 +8,7 @@
   ## Table of Contents
   * [Installation](#installation) 
   * [Usage](#usage) 
+  * [Heroku Link](#link)
   * [Tech/Framework](#tech)
   * [License](#license)
   * [Contributing](#contributing) 
@@ -19,15 +20,18 @@
 
   ## Usage <a id="usage"></a> 
   ### Run the following in the command line
-  * **npm start** <br />
-  OR
-  * **node server**
+  * **npm start** <br/>
+  then open the link in the browser. ie. http://localhost:4000
 
   ### Snapshots
   * Sample Input <br />
-  ![sample-input](https://user-images.githubusercontent.com/90885263/146714721-25f43baf-785a-48bf-a30f-13cdb14cedd6.jpg)
+  ![Starting Page](![image](https://user-images.githubusercontent.com/90885263/147195835-3eed7880-6ece-4e79-9a0b-d82091edb53e.png)
+  <br/>
+  ![Adding Note](https://user-images.githubusercontent.com/90885263/147196132-28c1c3d8-bece-45cc-b7eb-af7a75c0cca5.png)
 
-  
+  ## Heroku Link <a id="link"></a>
+  ![Open Note Taker](https://safe-atoll-95629.herokuapp.com/)
+
   ## Tech/Framework <a id="tech"></a>
   * HTML
   * CSS

@@ -73,8 +73,6 @@ app.delete('/api/notes/:id', (req, res) => {
             res.status(200).end();
         });
     });
-
-    
 });
 
 // Show URL and listening port of the running App

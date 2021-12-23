@@ -31,7 +31,7 @@
   ![Adding Note](https://user-images.githubusercontent.com/90885263/147196132-28c1c3d8-bece-45cc-b7eb-af7a75c0cca5.png)
 
   ## Note Taker Link <a id="link"></a>
- https://safe-atoll-95629.herokuapp.com{:target="_blank}
+ https://safe-atoll-95629.herokuapp.com
 
   ## Tech/Framework <a id="tech"></a>
   * HTML

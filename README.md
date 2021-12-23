@@ -25,7 +25,7 @@
 
   ### Snapshots
   * Sample Input <br />
-  ![Starting Page](![image](https://user-images.githubusercontent.com/90885263/147195835-3eed7880-6ece-4e79-9a0b-d82091edb53e.png)
+  ![Starting Page](https://user-images.githubusercontent.com/90885263/147195835-3eed7880-6ece-4e79-9a0b-d82091edb53e.png)
   <br/>
   ![Adding Note](https://user-images.githubusercontent.com/90885263/147196132-28c1c3d8-bece-45cc-b7eb-af7a75c0cca5.png)
 
